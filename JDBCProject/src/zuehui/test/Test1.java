@@ -51,7 +51,25 @@ public class Test1 {
 
     @Test
     public void testEdit(){
+        Connection conn=null;
+        PreparedStatement pstmt=null;
+        try{
+            conn=MyDataSource.getConnection();
+            String sql="update userinfo set uName=? where uid=?";
+            pstmt=conn.prepareStatement(sql);
+            pstmt.setString(1,"Test Edit");
+            pstmt.setInt(2,3);
+            int n=pstmt.executeUpdate();
+            if(n>0){
+                System.out.println("修改成功");
+            }else
+            {
+                System.out.println("修改失敗");
+            }
 
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
     @Test
     public void testSelect(){
