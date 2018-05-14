@@ -15,8 +15,8 @@
       <file leaf-file-name="Test1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zuehui/test/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="248">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
               <folding>
                 <element signature="method#testAdd#0;class#Test1#0" />
                 <element signature="method#testDel#0;class#Test1#0" />
@@ -83,6 +83,12 @@
               <item name="JDBCProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="JDBCProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +287,7 @@
       <workItem from="1526280735079" duration="234000" />
       <workItem from="1526280978880" duration="271000" />
       <workItem from="1526281325738" duration="4563000" />
-      <workItem from="1526286254361" duration="1790000" />
+      <workItem from="1526286254361" duration="2731000" />
     </task>
     <servers />
   </component>
@@ -298,9 +304,12 @@
     <history-entry file="Test1_testSelect - 2018.05.14 at 16h 45m 41s.xml">
       <configuration name="Test1.testSelect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test1_testEdit - 2018.05.14 at 16h 54m 15s.xml">
+      <configuration name="Test1.testEdit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6867000" />
+    <option name="totallyTimeSpent" value="7808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
@@ -315,12 +324,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22575517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22575517" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532943" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,8 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zuehui/test/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="248">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
             <element signature="method#testAdd#0;class#Test1#0" />
             <element signature="method#testDel#0;class#Test1#0" />
