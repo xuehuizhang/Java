@@ -12,16 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zuehui/test/Test1.java">
+      <file leaf-file-name="c3p0-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-              <folding>
-                <element signature="method#testAdd#0;class#Test1#0" />
-                <element signature="method#testDel#0;class#Test1#0" />
-                <element signature="method#testSelect#0;class#Test1#0" />
-              </folding>
+            <state relative-caret-position="410">
+              <caret line="35" column="14" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -59,8 +54,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1942" />
-    <option name="y" value="16" />
+    <option name="x" value="2041" />
+    <option name="y" value="1" />
     <option name="width" value="1378" />
     <option name="height" value="733" />
   </component>
@@ -99,7 +94,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DBUtils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -287,7 +282,7 @@
       <workItem from="1526280735079" duration="234000" />
       <workItem from="1526280978880" duration="271000" />
       <workItem from="1526281325738" duration="4563000" />
-      <workItem from="1526286254361" duration="3127000" />
+      <workItem from="1526286254361" duration="4611000" />
     </task>
     <servers />
   </component>
@@ -312,10 +307,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8204000" />
+    <option name="totallyTimeSpent" value="9688000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1912" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,12 +322,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2209857" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2209857" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16105418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16105418" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,13 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xuehui/utils/MyDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -414,6 +403,13 @@
             <element signature="method#testDel#0;class#Test1#0" />
             <element signature="method#testSelect#0;class#Test1#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
