@@ -1,0 +1,18 @@
+package xuehui.dbutils;
+
+import xuehui.datasource.*;
+import javax.sql.DataSource;
+import org.apache.commons.dbutils.QueryRunner;
+
+
+import org.junit.Test;
+
+
+public class DbutilsTest {
+	DataSource dataSource=MyDataSource.getDataSource();
+	
+	@Test
+	public void searchTest() {
+		QueryRunner qRunner=new QueryRunner();
+	}
+}

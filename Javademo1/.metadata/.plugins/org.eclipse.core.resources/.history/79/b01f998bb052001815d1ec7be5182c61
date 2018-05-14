@@ -1,0 +1,25 @@
+package xuehui.dbutils;
+
+import xuehui.datasource.*;
+import javax.sql.DataSource;
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
+
+import xuehui.bean.*;
+
+import org.junit.Test;
+
+
+public class DbutilsTest {
+	DataSource dataSource=MyDataSource.getDataSource();
+	
+	@Test
+	public void searchTest() {
+		QueryRunner qRunner=new QueryRunner(dataSource);
+		try {
+		qRunner.query("select * from userinfo", new BeanListHandler(UserBean.class));
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,20 @@
+package xuehui.test;
+
+import org.junit.Test;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import xuehui.datasource.*;
+
+public class SearchTest {
+	@Test
+	public void SearTest() {
+		Connection conn=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+		
+		conn=MyDataSource.getConnection();
+		String sql="select * from userinfo";
+		
+	}
+}

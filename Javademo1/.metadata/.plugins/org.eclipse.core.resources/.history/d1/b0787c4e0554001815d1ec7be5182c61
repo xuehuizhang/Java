@@ -1,0 +1,21 @@
+package xuehui.Test;
+
+public class Dom4JTest {
+	private static ArrayList<>
+}
+
+class Book{
+	private String name;
+	private String author;
+	private String year;
+	private String price;
+	private String language;
+	
+	public void setName(String name) {
+		this.name=name;
+	}
+	public String getName() {
+		return this.name;
+	}
+	
+}

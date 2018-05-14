@@ -1,0 +1,12 @@
+package xuehui.test;
+
+import org.junit.Test;
+
+public class SearchTest {
+	@Test
+	public void SearTest() {
+		Connection conn=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+	}
+}

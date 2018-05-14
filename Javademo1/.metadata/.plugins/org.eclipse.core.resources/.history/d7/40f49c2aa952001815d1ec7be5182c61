@@ -1,0 +1,10 @@
+package xuehui.datasource;
+
+import com.mchange.v2.c3p0.*;
+
+public class MyDataSource {
+	private static	ComboPooledDataSource dataSource=new ComboPooledDataSource();
+	public static DataSource getDataSource() {
+		
+	}
+}

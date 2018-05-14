@@ -1,0 +1,11 @@
+package CollectionTest;
+
+import java.util.Arrays;
+
+public class demo1 {
+	int a[]={1,5,3,8,4};
+	Arrays.sort(a);
+	
+	
+	
+}

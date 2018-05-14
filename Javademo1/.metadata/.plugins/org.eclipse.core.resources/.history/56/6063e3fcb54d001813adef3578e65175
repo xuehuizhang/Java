@@ -1,0 +1,18 @@
+package CollectionTest;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.io.*;
+public class demo1 {
+	
+	public static void main(String[] args) {
+		 
+	}
+	
+	public static Boolean writeFile(String filePath) {
+		Boolean flag=false;
+		
+		return flag;
+	}
+}

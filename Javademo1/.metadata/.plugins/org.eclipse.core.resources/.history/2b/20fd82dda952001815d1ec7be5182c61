@@ -1,0 +1,7 @@
+package xuehui.test;
+
+public class SearchTest {
+	public void SearTest() {
+		
+	}
+}

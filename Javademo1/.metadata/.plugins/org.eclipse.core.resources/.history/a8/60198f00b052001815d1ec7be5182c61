@@ -1,0 +1,16 @@
+package xuehui.dbutils;
+
+import xuehui.datasource.*;
+import javax.sql.DataSource;
+
+import org.junit.Test;
+
+
+public class DbutilsTest {
+	DataSource dataSource=MyDataSource.getDataSource();
+	
+	@Test
+	public void searchTest() {
+		
+	}
+}

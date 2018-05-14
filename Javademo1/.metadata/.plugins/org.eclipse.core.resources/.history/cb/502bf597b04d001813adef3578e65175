@@ -1,0 +1,22 @@
+package CollectionTest;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class demo1 {
+	
+	public static void main(String[] args) {
+		int[] arr= {2,1,4,3,6,5,8,6,7};
+		System.out.println(arr.length);
+		
+		ArrayList aList=new ArrayList();
+		
+	   // aList.addAll(Arrays.asList(arr));
+	    
+	    for(Object a:aList) {
+	    	for(int i: a) {
+	    		System.out.
+	    	}
+	    }
+	}
+}
