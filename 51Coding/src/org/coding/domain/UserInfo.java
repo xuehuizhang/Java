@@ -2,7 +2,7 @@ package org.coding.domain;
 
 public class UserInfo {
 	private String uid;
-	private String ueamil;
+	private String uemail;
 	private String unick;
 	private String upwd;
 	public String getUid() {
@@ -11,11 +11,11 @@ public class UserInfo {
 	public void setUid(String uid) {
 		this.uid = uid;
 	}
-	public String getUeamil() {
-		return ueamil;
+	public String getUemail() {
+		return uemail;
 	}
-	public void setUeamil(String ueamil) {
-		this.ueamil = ueamil;
+	public void setUemail(String uemail) {
+		this.uemail = uemail;
 	}
 	public String getUnick() {
 		return unick;
@@ -31,7 +31,7 @@ public class UserInfo {
 	}
 	@Override
 	public String toString() {
-		return "UserInfo [uid=" + uid + ", ueamil=" + ueamil + ", unick=" + unick + ", upwd=" + upwd + "]";
+		return "UserInfo [uid=" + uid + ", ueamil=" + uemail + ", unick=" + unick + ", upwd=" + upwd + "]";
 	}
 	
 }

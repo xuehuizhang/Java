@@ -19,7 +19,7 @@
   <div class="fly-panel fly-panel-user" pad20>
     <div class="layui-tab layui-tab-brief" lay-filter="user">
       <ul class="layui-tab-title">
-        <li><a href="login.html">登入</a></li>
+        <li><a href="${pageContext.request.contextPath}/user/login.jsp">登入</a></li>
         <li class="layui-this">注册</li>
       </ul>
       <div class="layui-form layui-tab-content" id="LAY_ucm" style="padding: 20px 0;">
@@ -59,6 +59,7 @@
                 </div>
                 <div class="layui-form-mid">
                   <span style="color: #c00;">1+1=?</span>
+                   <span style="color: #c00;">${requestScope.errorMsg}</span>
                 </div>
               </div>
               <div class="layui-form-item">
